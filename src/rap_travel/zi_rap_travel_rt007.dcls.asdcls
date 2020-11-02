@@ -10,6 +10,5 @@ define role ZI_RAP_TRAVEL_RT007 {
                         and ( TravelStatus ) = aspect pfcg_auth(ZOSTATRT7,ZOSTATRT7,ACTVT = '03' )
                         or
                         true
-                        ;
-                        
+                        ;                       
 }
