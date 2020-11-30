@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_generate_demo_data_rt007 IMPLEMENTATION.
+CLASS ZCL_GENERATE_DEMO_DATA_RT007 IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
 
@@ -78,5 +80,4 @@ CLASS zcl_generate_demo_data_rt007 IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

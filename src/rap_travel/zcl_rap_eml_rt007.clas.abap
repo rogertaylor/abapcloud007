@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_rap_eml_rt007 IMPLEMENTATION.
+CLASS ZCL_RAP_EML_RT007 IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
 
@@ -132,5 +134,4 @@ CLASS zcl_rap_eml_rt007 IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

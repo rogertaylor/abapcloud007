@@ -42,7 +42,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_generate_week2_RT007 IMPLEMENTATION.
+CLASS ZCL_GENERATE_WEEK2_RT007 IMPLEMENTATION.
+
+
   METHOD main.
 
     package_name = to_upper( package_name ).
@@ -163,6 +165,7 @@ CLASS zcl_generate_week2_RT007 IMPLEMENTATION.
     ENDLOOP.
 
   ENDMETHOD.
+
 
   METHOD get_json_string.
 
@@ -362,6 +365,7 @@ CLASS zcl_generate_week2_RT007 IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD get_table_booking_fields.
     table_booking_fields = VALUE tt_fields(
                    ( field = 'client'
@@ -401,6 +405,7 @@ CLASS zcl_generate_week2_RT007 IMPLEMENTATION.
                      ).
 
   ENDMETHOD.
+
 
   METHOD get_table_travel_fields.
     table_travel_fields = VALUE tt_fields(

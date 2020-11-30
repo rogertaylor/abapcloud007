@@ -4,13 +4,13 @@
   <asx:values>
    <SRVB>
     <METADATA>
-     <NAME>ZUI_RAP_TRAVEL_RT007</NAME>
+     <NAME>ZUI_RAP_TRAVEL_U_O2_RT007</NAME>
      <TYPE>SRVB/SVB</TYPE>
-     <DESCRIPTION>OData V2 UI service for Fiori Travel App</DESCRIPTION>
+     <DESCRIPTION>Travel</DESCRIPTION>
      <LANGUAGE>EN</LANGUAGE>
      <LINKS>
       <item>
-       <HREF>/sap/bc/adt/businessservices/odatav2/ZUI_RAP_TRAVEL_RT007</HREF>
+       <HREF>/sap/bc/adt/businessservices/odatav2/ZUI_RAP_TRAVEL_U_O2_RT007</HREF>
        <REL>http://www.sap.com/categories/odatav2</REL>
        <TYPE>application/vnd.sap.adt.businessservices.odatav2.v2+xml</TYPE>
        <TITLE>ODATAV2</TITLE>
@@ -26,20 +26,20 @@
     </METADATA>
     <CONTENT>
      <BIND_TYPE_IMPL>
-      <NAME>ZUI_RAP_TRAVEL_RT007</NAME>
+      <NAME>ZUI_RAP_TRAVEL_U_O2_RT007</NAME>
      </BIND_TYPE_IMPL>
      <BIND_TYPE>ODATA</BIND_TYPE>
      <BIND_TYPE_VERSION>V2</BIND_TYPE_VERSION>
      <SERVICES>
       <item>
-       <SERVICE_NAME>ZUI_RAP_TRAVEL_RT007</SERVICE_NAME>
+       <SERVICE_NAME>ZUI_RAP_TRAVEL_U_O2_RT007</SERVICE_NAME>
        <SERVICE_CONTENT>
         <item>
          <SERVICE_VERSION>0001</SERVICE_VERSION>
          <SRVD_REF>
-          <URI>/sap/bc/adt/ddic/srvd/sources/zui_rap_travel_rt007</URI>
+          <URI>/sap/bc/adt/ddic/srvd/sources/zui_rap_travel_u_rt007</URI>
           <TYPE>SRVD/SRV</TYPE>
-          <NAME>ZUI_RAP_TRAVEL_RT007</NAME>
+          <NAME>ZUI_RAP_TRAVEL_U_RT007</NAME>
          </SRVD_REF>
         </item>
        </SERVICE_CONTENT>

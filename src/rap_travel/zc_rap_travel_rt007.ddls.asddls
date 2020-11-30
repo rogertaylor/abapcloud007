@@ -8,11 +8,11 @@ define root view entity zc_rap_travel_rt007 as projection on ZI_RAP_Travel_RT007
     key TravelUUID,
     @Search.defaultSearchElement: true
     TravelID,
-    @Consumption.valueHelpDefinition: [{ entity: { name: '/DMO/I_Agency', element: 'AgencyID' } }]
-    @ObjectModel.text.element: ['AgencyName']
+    @Consumption.valueHelpDefinition: [{ entity: { name: 'zce_rap_agency_RT007', element: 'AgencyID' } }]
+//    @ObjectModel.text.element: ['AgencyName']
     @Search.defaultSearchElement: true
     AgencyID,
-    _Agency.Name as AgencyName,
+//    _Agency.Name as AgencyName,
     @Consumption.valueHelpDefinition: [{ entity: { name: '/DMO/I_Customer', element: 'CustomerID' } }]
     @Search.defaultSearchElement: true
     @ObjectModel.text.element: ['CustomerName']
